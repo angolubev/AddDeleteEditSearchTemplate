@@ -96,9 +96,9 @@ public class MainActivity extends AppCompatActivity
                     {
                        action_mode = startSupportActionMode(mActionModeCallback);
                     }
-                }
 
-                MultiSelect(position);
+                    MultiSelect(position);
+                }
             }
         }));
     }
